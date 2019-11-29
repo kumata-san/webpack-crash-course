@@ -1,7 +1,6 @@
 import _ from 'lodash'
-import Tiger from './utilities'
+import './style.css'
 
-console.log(Tiger.say());
 
 function component() {
     const element = document.createElement('div');
@@ -10,4 +9,5 @@ function component() {
     return element;
 }
 
-document.body.appendChild(component())
+document.body.appendChild(component());
+document.body.classList.add('haikei');
