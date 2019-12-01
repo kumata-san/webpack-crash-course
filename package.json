@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/kumata-san/webpack-crash-course#readme",
   "dependencies": {
-    "lodash": "^4.17.13"
+    "lodash": "^4.17.13",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
   },
   "devDependencies": {
     "css-loader": "^2.1.0",
